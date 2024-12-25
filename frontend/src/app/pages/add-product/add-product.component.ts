@@ -32,7 +32,6 @@ export class AddProductComponent {
 
   onSubmit(): void {
     if (this.addProductForm.valid) {
-      debugger;
       const product: Product = {
         skuCode: this.addProductForm.get('skuCode')?.value,
         name: this.addProductForm.get('name')?.value,

@@ -1,4 +1,4 @@
-package com.programming.techie.gateway;
+package com.techie.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
